@@ -1,0 +1,363 @@
+2023-02-02T14:19:26Z runner[dced5d12] iad [info]Starting instance
+2023-02-02T14:19:31Z runner[dced5d12] iad [info]Configuring virtual machine
+2023-02-02T14:19:31Z runner[dced5d12] iad [info]Pulling container image
+2023-02-02T14:19:31Z runner[dced5d12] iad [info]Unpacking image
+2023-02-02T14:19:34Z runner[dced5d12] iad [info]Preparing kernel init
+2023-02-02T14:19:35Z runner[dced5d12] iad [info]Configuring firecracker
+2023-02-02T14:19:35Z runner[dced5d12] iad [info]Starting virtual machine
+2023-02-02T14:19:35Z app[dced5d12] iad [info]Starting init (commit: e3cff9e)...
+2023-02-02T14:19:35Z app[dced5d12] iad [info]Preparing to run: `/cnb/process/web` as heroku
+2023-02-02T14:19:35Z app[dced5d12] iad [info]2023/02/02 14:19:35 listening on [fdaa:0:24c7:a7b:93:dced:5d12:2]:22 (DNS: [fdaa::3]:53)
+2023-02-02T14:19:37Z app[dced5d12] iad [info]Example app listening on port 8080
+2023-02-02T14:19:37Z app[dced5d12] iad [info]created cronjob in queue some-queue
+2023-02-02T14:19:45Z app[dced5d12] iad [info]running job 27dc6cde-52d9-49a2-8277-4864520ee59d
+2023-02-02T14:20:09Z app[dced5d12] iad [info]running job 0f86a36c-39fd-411c-a048-83956aba9ec3
+2023-02-02T14:20:25Z app[dced5d12] iad [info]Error: Connection terminated unexpectedly
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    at Connection.<anonymous> (/workspace/node_modules/pg/lib/client.js:131:73)
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    at Object.onceWrapper (node:events:627:28)
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    at Connection.emit (node:events:513:28)
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    at Socket.<anonymous> (/workspace/node_modules/pg/lib/connection.js:112:12)
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    at Socket.emit (node:events:525:35)
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    at endReadableNT (node:internal/streams/readable:1359:12)
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+2023-02-02T14:20:25Z app[dced5d12] iad [info]  client: Client {
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _events: [Object: null prototype] { error: [Function (anonymous)] },
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _eventsCount: 1,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _maxListeners: undefined,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    connectionParameters: ConnectionParameters {
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      user: 'old_feather_5705',
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      database: 'old_feather_5705',
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      port: 5432,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      host: 'top2.nearest.of.old-feather-5705-db.internal',
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      binary: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      options: undefined,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      ssl: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      client_encoding: '',
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      replication: undefined,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      isDomainSocket: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      application_name: 'pgboss',
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      fallback_application_name: undefined,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      statement_timeout: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      lock_timeout: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      idle_in_transaction_session_timeout: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      query_timeout: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      connect_timeout: 0
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    },
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    user: 'old_feather_5705',
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    database: 'old_feather_5705',
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    port: 5432,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    host: 'top2.nearest.of.old-feather-5705-db.internal',
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    replication: undefined,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _Promise: [Function: Promise],
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _types: TypeOverrides { _types: [Object], text: {}, binary: {} },
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _ending: true,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _connecting: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _connected: true,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _connectionError: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _queryable: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    connection: Connection {
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      _events: [Object: null prototype],
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      _eventsCount: 23,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      _maxListeners: undefined,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      stream: [Socket],
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      _keepAlive: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      _keepAliveInitialDelayMillis: 0,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      lastBuffer: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      parsedStatements: {},
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      ssl: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      _ending: true,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      _emitMessage: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      _connecting: true,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      [Symbol(kCapture)]: false
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    },
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    queryQueue: [],
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    binary: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    processID: 1399,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    secretKey: 70591642,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    ssl: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _connectionTimeoutMillis: 0,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _connectionCallback: null,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    saslSession: null,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    release: [Function (anonymous)],
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    activeQuery: null,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    readyForQuery: true,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    hasExecuted: true,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _poolUseCount: 37,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    [Symbol(kCapture)]: false
+2023-02-02T14:20:25Z app[dced5d12] iad [info]  }
+2023-02-02T14:20:25Z app[dced5d12] iad [info]}
+2023-02-02T14:20:25Z app[dced5d12] iad [info]Error: Connection terminated unexpectedly
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    at Connection.<anonymous> (/workspace/node_modules/pg/lib/client.js:131:73)
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    at Object.onceWrapper (node:events:627:28)
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    at Connection.emit (node:events:513:28)
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    at Socket.<anonymous> (/workspace/node_modules/pg/lib/connection.js:112:12)
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    at Socket.emit (node:events:525:35)
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    at endReadableNT (node:internal/streams/readable:1359:12)
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+2023-02-02T14:20:25Z app[dced5d12] iad [info]  client: Client {
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _events: [Object: null prototype] { error: [Function (anonymous)] },
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _eventsCount: 1,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _maxListeners: undefined,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    connectionParameters: ConnectionParameters {
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      user: 'old_feather_5705',
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      database: 'old_feather_5705',
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      port: 5432,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      host: 'top2.nearest.of.old-feather-5705-db.internal',
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      binary: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      options: undefined,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      ssl: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      client_encoding: '',
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      replication: undefined,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      isDomainSocket: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      application_name: 'pgboss',
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      fallback_application_name: undefined,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      statement_timeout: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      lock_timeout: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      idle_in_transaction_session_timeout: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      query_timeout: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      connect_timeout: 0
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    },
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    user: 'old_feather_5705',
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    database: 'old_feather_5705',
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    port: 5432,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    host: 'top2.nearest.of.old-feather-5705-db.internal',
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    replication: undefined,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _Promise: [Function: Promise],
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _types: TypeOverrides { _types: [Object], text: {}, binary: {} },
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _ending: true,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _connecting: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _connected: true,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _connectionError: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _queryable: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    connection: Connection {
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      _events: [Object: null prototype],
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      _eventsCount: 23,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      _maxListeners: undefined,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      stream: [Socket],
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      _keepAlive: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      _keepAliveInitialDelayMillis: 0,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      lastBuffer: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      parsedStatements: {},
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      ssl: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      _ending: true,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      _emitMessage: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      _connecting: true,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]      [Symbol(kCapture)]: false
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    },
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    queryQueue: [],
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    binary: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    processID: 1394,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    secretKey: -1776685002,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    ssl: false,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _connectionTimeoutMillis: 0,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _connectionCallback: null,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    saslSession: null,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    release: [Function (anonymous)],
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    activeQuery: null,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    readyForQuery: true,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    hasExecuted: true,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    _poolUseCount: 44,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    [Symbol(kCapture)]: false
+2023-02-02T14:20:25Z app[dced5d12] iad [info]  }
+2023-02-02T14:20:25Z app[dced5d12] iad [info]}
+2023-02-02T14:20:25Z app[dced5d12] iad [info]{
+2023-02-02T14:20:25Z app[dced5d12] iad [info]  errno: -3008,
+2023-02-02T14:20:25Z app[dced5d12] iad [info]  code: 'ENOTFOUND',
+2023-02-02T14:20:25Z app[dced5d12] iad [info]  syscall: 'getaddrinfo',
+2023-02-02T14:20:25Z app[dced5d12] iad [info]  hostname: 'top2.nearest.of.old-feather-5705-db.internal',
+2023-02-02T14:20:25Z app[dced5d12] iad [info]  message: 'getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal (Queue: some-queue, Worker: e56cc323-d742-40fc-bcee-ce83c0e65126)',
+2023-02-02T14:20:25Z app[dced5d12] iad [info]  stack: 'Error: getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal\n' +
+2023-02-02T14:20:25Z app[dced5d12] iad [info]    '    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)',
+2023-02-02T14:20:25Z app[dced5d12] iad [info]  queue: 'some-queue',
+2023-02-02T14:20:25Z app[dced5d12] iad [info]  worker: 'e56cc323-d742-40fc-bcee-ce83c0e65126'
+2023-02-02T14:20:25Z app[dced5d12] iad [info]}
+2023-02-02T14:20:27Z app[dced5d12] iad [info]{
+2023-02-02T14:20:27Z app[dced5d12] iad [info]  errno: -3008,
+2023-02-02T14:20:27Z app[dced5d12] iad [info]  code: 'ENOTFOUND',
+2023-02-02T14:20:27Z app[dced5d12] iad [info]  syscall: 'getaddrinfo',
+2023-02-02T14:20:27Z app[dced5d12] iad [info]  hostname: 'top2.nearest.of.old-feather-5705-db.internal',
+2023-02-02T14:20:27Z app[dced5d12] iad [info]  message: 'getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal (Queue: some-queue, Worker: e56cc323-d742-40fc-bcee-ce83c0e65126)',
+2023-02-02T14:20:27Z app[dced5d12] iad [info]  stack: 'Error: getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal\n' +
+2023-02-02T14:20:27Z app[dced5d12] iad [info]    '    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)',
+2023-02-02T14:20:27Z app[dced5d12] iad [info]  queue: 'some-queue',
+2023-02-02T14:20:27Z app[dced5d12] iad [info]  worker: 'e56cc323-d742-40fc-bcee-ce83c0e65126'
+2023-02-02T14:20:27Z app[dced5d12] iad [info]}
+2023-02-02T14:20:29Z app[dced5d12] iad [info]{
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  errno: -3008,
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  code: 'ENOTFOUND',
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  syscall: 'getaddrinfo',
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  hostname: 'top2.nearest.of.old-feather-5705-db.internal',
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  message: 'getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal (Queue: __pgboss__send-it, Worker: 0e11ceaa-c51b-4814-a672-ad6dae1b0e68)',
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  stack: 'Error: getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal\n' +
+2023-02-02T14:20:29Z app[dced5d12] iad [info]    '    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)',
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  queue: '__pgboss__send-it',
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  worker: '0e11ceaa-c51b-4814-a672-ad6dae1b0e68'
+2023-02-02T14:20:29Z app[dced5d12] iad [info]}
+2023-02-02T14:20:29Z app[dced5d12] iad [info]{
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  errno: -3008,
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  code: 'ENOTFOUND',
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  syscall: 'getaddrinfo',
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  hostname: 'top2.nearest.of.old-feather-5705-db.internal',
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  message: 'getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal (Queue: __pgboss__cron, Worker: bc274548-da6a-434b-9069-6d1efd2dadf1)',
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  stack: 'Error: getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal\n' +
+2023-02-02T14:20:29Z app[dced5d12] iad [info]    '    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)',
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  queue: '__pgboss__cron',
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  worker: 'bc274548-da6a-434b-9069-6d1efd2dadf1'
+2023-02-02T14:20:29Z app[dced5d12] iad [info]}
+2023-02-02T14:20:29Z app[dced5d12] iad [info]{
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  errno: -3008,
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  code: 'ENOTFOUND',
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  syscall: 'getaddrinfo',
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  hostname: 'top2.nearest.of.old-feather-5705-db.internal',
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  message: 'getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal (Queue: some-queue, Worker: e56cc323-d742-40fc-bcee-ce83c0e65126)',
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  stack: 'Error: getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal\n' +
+2023-02-02T14:20:29Z app[dced5d12] iad [info]    '    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)',
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  queue: 'some-queue',
+2023-02-02T14:20:29Z app[dced5d12] iad [info]  worker: 'e56cc323-d742-40fc-bcee-ce83c0e65126'
+2023-02-02T14:20:29Z app[dced5d12] iad [info]}
+2023-02-02T14:20:31Z app[dced5d12] iad [info]{
+2023-02-02T14:20:31Z app[dced5d12] iad [info]  errno: -3008,
+2023-02-02T14:20:31Z app[dced5d12] iad [info]  code: 'ENOTFOUND',
+2023-02-02T14:20:31Z app[dced5d12] iad [info]  syscall: 'getaddrinfo',
+2023-02-02T14:20:31Z app[dced5d12] iad [info]  hostname: 'top2.nearest.of.old-feather-5705-db.internal',
+2023-02-02T14:20:31Z app[dced5d12] iad [info]  message: 'getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal (Queue: some-queue, Worker: e56cc323-d742-40fc-bcee-ce83c0e65126)',
+2023-02-02T14:20:31Z app[dced5d12] iad [info]  stack: 'Error: getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal\n' +
+2023-02-02T14:20:31Z app[dced5d12] iad [info]    '    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)',
+2023-02-02T14:20:31Z app[dced5d12] iad [info]  queue: 'some-queue',
+2023-02-02T14:20:31Z app[dced5d12] iad [info]  worker: 'e56cc323-d742-40fc-bcee-ce83c0e65126'
+2023-02-02T14:20:31Z app[dced5d12] iad [info]}
+2023-02-02T14:20:33Z app[dced5d12] iad [info]{
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  errno: -3008,
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  code: 'ENOTFOUND',
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  syscall: 'getaddrinfo',
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  hostname: 'top2.nearest.of.old-feather-5705-db.internal',
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  message: 'getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal (Queue: __pgboss__cron, Worker: bc274548-da6a-434b-9069-6d1efd2dadf1)',
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  stack: 'Error: getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal\n' +
+2023-02-02T14:20:33Z app[dced5d12] iad [info]    '    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)',
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  queue: '__pgboss__cron',
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  worker: 'bc274548-da6a-434b-9069-6d1efd2dadf1'
+2023-02-02T14:20:33Z app[dced5d12] iad [info]}
+2023-02-02T14:20:33Z app[dced5d12] iad [info]{
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  errno: -3008,
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  code: 'ENOTFOUND',
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  syscall: 'getaddrinfo',
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  hostname: 'top2.nearest.of.old-feather-5705-db.internal',
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  message: 'getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal (Queue: __pgboss__send-it, Worker: 0e11ceaa-c51b-4814-a672-ad6dae1b0e68)',
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  stack: 'Error: getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal\n' +
+2023-02-02T14:20:33Z app[dced5d12] iad [info]    '    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)',
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  queue: '__pgboss__send-it',
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  worker: '0e11ceaa-c51b-4814-a672-ad6dae1b0e68'
+2023-02-02T14:20:33Z app[dced5d12] iad [info]}
+2023-02-02T14:20:33Z app[dced5d12] iad [info]{
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  errno: -3008,
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  code: 'ENOTFOUND',
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  syscall: 'getaddrinfo',
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  hostname: 'top2.nearest.of.old-feather-5705-db.internal',
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  message: 'getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal (Queue: some-queue, Worker: e56cc323-d742-40fc-bcee-ce83c0e65126)',
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  stack: 'Error: getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal\n' +
+2023-02-02T14:20:33Z app[dced5d12] iad [info]    '    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)',
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  queue: 'some-queue',
+2023-02-02T14:20:33Z app[dced5d12] iad [info]  worker: 'e56cc323-d742-40fc-bcee-ce83c0e65126'
+2023-02-02T14:20:33Z app[dced5d12] iad [info]}
+2023-02-02T14:20:35Z app[dced5d12] iad [info]{
+2023-02-02T14:20:35Z app[dced5d12] iad [info]  errno: -3008,
+2023-02-02T14:20:35Z app[dced5d12] iad [info]  code: 'ENOTFOUND',
+2023-02-02T14:20:35Z app[dced5d12] iad [info]  syscall: 'getaddrinfo',
+2023-02-02T14:20:35Z app[dced5d12] iad [info]  hostname: 'top2.nearest.of.old-feather-5705-db.internal',
+2023-02-02T14:20:35Z app[dced5d12] iad [info]  message: 'getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal (Queue: some-queue, Worker: e56cc323-d742-40fc-bcee-ce83c0e65126)',
+2023-02-02T14:20:35Z app[dced5d12] iad [info]  stack: 'Error: getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal\n' +
+2023-02-02T14:20:35Z app[dced5d12] iad [info]    '    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)',
+2023-02-02T14:20:35Z app[dced5d12] iad [info]  queue: 'some-queue',
+2023-02-02T14:20:35Z app[dced5d12] iad [info]  worker: 'e56cc323-d742-40fc-bcee-ce83c0e65126'
+2023-02-02T14:20:35Z app[dced5d12] iad [info]}
+2023-02-02T14:20:37Z app[dced5d12] iad [info]{
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  errno: -3008,
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  code: 'ENOTFOUND',
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  syscall: 'getaddrinfo',
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  hostname: 'top2.nearest.of.old-feather-5705-db.internal',
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  message: 'getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal (Queue: __pgboss__maintenance, Worker: 6705919b-8f4f-46dc-9f78-1e084f46906d)',
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  stack: 'Error: getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal\n' +
+2023-02-02T14:20:37Z app[dced5d12] iad [info]    '    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)',
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  queue: '__pgboss__maintenance',
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  worker: '6705919b-8f4f-46dc-9f78-1e084f46906d'
+2023-02-02T14:20:37Z app[dced5d12] iad [info]}
+2023-02-02T14:20:37Z app[dced5d12] iad [info]{
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  errno: -3008,
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  code: 'ENOTFOUND',
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  syscall: 'getaddrinfo',
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  hostname: 'top2.nearest.of.old-feather-5705-db.internal',
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  message: 'getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal (Queue: __pgboss__send-it, Worker: 0e11ceaa-c51b-4814-a672-ad6dae1b0e68)',
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  stack: 'Error: getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal\n' +
+2023-02-02T14:20:37Z app[dced5d12] iad [info]    '    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)',
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  queue: '__pgboss__send-it',
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  worker: '0e11ceaa-c51b-4814-a672-ad6dae1b0e68'
+2023-02-02T14:20:37Z app[dced5d12] iad [info]}
+2023-02-02T14:20:37Z app[dced5d12] iad [info]{
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  errno: -3008,
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  code: 'ENOTFOUND',
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  syscall: 'getaddrinfo',
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  hostname: 'top2.nearest.of.old-feather-5705-db.internal',
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  message: 'getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal (Queue: __pgboss__cron, Worker: bc274548-da6a-434b-9069-6d1efd2dadf1)',
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  stack: 'Error: getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal\n' +
+2023-02-02T14:20:37Z app[dced5d12] iad [info]    '    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26)',
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  queue: '__pgboss__cron',
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  worker: 'bc274548-da6a-434b-9069-6d1efd2dadf1'
+2023-02-02T14:20:37Z app[dced5d12] iad [info]}
+2023-02-02T14:20:37Z app[dced5d12] iad [info]node:internal/process/promises:289
+2023-02-02T14:20:37Z app[dced5d12] iad [info]            triggerUncaughtException(err, true /* fromPromise */);
+2023-02-02T14:20:37Z app[dced5d12] iad [info]            ^
+2023-02-02T14:20:37Z app[dced5d12] iad [info]Error: getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal
+2023-02-02T14:20:37Z app[dced5d12] iad [info]    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  errno: -3008,
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  code: 'ENOTFOUND',
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  syscall: 'getaddrinfo',
+2023-02-02T14:20:37Z app[dced5d12] iad [info]  hostname: 'top2.nearest.of.old-feather-5705-db.internal'
+2023-02-02T14:20:37Z app[dced5d12] iad [info]}
+2023-02-02T14:20:37Z app[dced5d12] iad [info]Node.js v19.4.0
+2023-02-02T14:20:37Z app[dced5d12] iad [info]Starting clean up.
+2023-02-02T14:20:43Z runner[dced5d12] iad [info]Starting instance
+2023-02-02T14:20:47Z runner[dced5d12] iad [info]Configuring virtual machine
+2023-02-02T14:20:47Z runner[dced5d12] iad [info]Pulling container image
+2023-02-02T14:20:47Z runner[dced5d12] iad [info]Unpacking image
+2023-02-02T14:20:47Z runner[dced5d12] iad [info]Preparing kernel init
+2023-02-02T14:20:48Z runner[dced5d12] iad [info]Configuring firecracker
+2023-02-02T14:20:48Z runner[dced5d12] iad [info]Starting virtual machine
+2023-02-02T14:20:49Z app[dced5d12] iad [info]Starting init (commit: e3cff9e)...
+2023-02-02T14:20:49Z app[dced5d12] iad [info]Preparing to run: `/cnb/process/web` as heroku
+2023-02-02T14:20:49Z app[dced5d12] iad [info]2023/02/02 14:20:49 listening on [fdaa:0:24c7:a7b:93:dced:5d12:2]:22 (DNS: [fdaa::3]:53)
+2023-02-02T14:20:49Z app[dced5d12] iad [info]Example app listening on port 8080
+2023-02-02T14:20:50Z app[dced5d12] iad [info]node:internal/process/promises:289
+2023-02-02T14:20:50Z app[dced5d12] iad [info]            triggerUncaughtException(err, true /* fromPromise */);
+2023-02-02T14:20:50Z app[dced5d12] iad [info]            ^
+2023-02-02T14:20:50Z app[dced5d12] iad [info]Error: getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal
+2023-02-02T14:20:50Z app[dced5d12] iad [info]    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+2023-02-02T14:20:50Z app[dced5d12] iad [info]  errno: -3008,
+2023-02-02T14:20:50Z app[dced5d12] iad [info]  code: 'ENOTFOUND',
+2023-02-02T14:20:50Z app[dced5d12] iad [info]  syscall: 'getaddrinfo',
+2023-02-02T14:20:50Z app[dced5d12] iad [info]  hostname: 'top2.nearest.of.old-feather-5705-db.internal'
+2023-02-02T14:20:50Z app[dced5d12] iad [info]}
+2023-02-02T14:20:50Z app[dced5d12] iad [info]Node.js v19.4.0
+2023-02-02T14:20:51Z app[dced5d12] iad [info]Starting clean up.
+2023-02-02T14:20:57Z runner[dced5d12] iad [info]Starting instance
+2023-02-02T14:21:01Z runner[dced5d12] iad [info]Configuring virtual machine
+2023-02-02T14:21:01Z runner[dced5d12] iad [info]Pulling container image
+2023-02-02T14:21:02Z runner[dced5d12] iad [info]Unpacking image
+2023-02-02T14:21:02Z runner[dced5d12] iad [info]Preparing kernel init
+2023-02-02T14:21:02Z runner[dced5d12] iad [info]Configuring firecracker
+2023-02-02T14:21:03Z runner[dced5d12] iad [info]Starting virtual machine
+2023-02-02T14:21:03Z app[dced5d12] iad [info]Starting init (commit: e3cff9e)...
+2023-02-02T14:21:03Z app[dced5d12] iad [info]Preparing to run: `/cnb/process/web` as heroku
+2023-02-02T14:21:03Z app[dced5d12] iad [info]2023/02/02 14:21:03 listening on [fdaa:0:24c7:a7b:93:dced:5d12:2]:22 (DNS: [fdaa::3]:53)
+2023-02-02T14:21:04Z app[dced5d12] iad [info]Example app listening on port 8080
+2023-02-02T14:21:05Z app[dced5d12] iad [info]node:internal/process/promises:289
+2023-02-02T14:21:05Z app[dced5d12] iad [info]            triggerUncaughtException(err, true /* fromPromise */);
+2023-02-02T14:21:05Z app[dced5d12] iad [info]            ^
+2023-02-02T14:21:05Z app[dced5d12] iad [info]Error: getaddrinfo ENOTFOUND top2.nearest.of.old-feather-5705-db.internal
+2023-02-02T14:21:05Z app[dced5d12] iad [info]    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:107:26) {
+2023-02-02T14:21:05Z app[dced5d12] iad [info]  errno: -3008,
+2023-02-02T14:21:05Z app[dced5d12] iad [info]  code: 'ENOTFOUND',
+2023-02-02T14:21:05Z app[dced5d12] iad [info]  syscall: 'getaddrinfo',
+2023-02-02T14:21:05Z app[dced5d12] iad [info]  hostname: 'top2.nearest.of.old-feather-5705-db.internal'
+2023-02-02T14:21:05Z app[dced5d12] iad [info]}
+2023-02-02T14:21:05Z app[dced5d12] iad [info]Node.js v19.4.0
+2023-02-02T14:21:05Z app[dced5d12] iad [info]Starting clean up.
