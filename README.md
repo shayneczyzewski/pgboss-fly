@@ -13,4 +13,4 @@ When the app is running, go into the UI and delete the database app.
 
 See [fly.logs](https://github.com/shayneczyzewski/pgboss-fly/blob/master/fly.logs#L15-L317) for an example of what happens, where it fails for a few seconds then the node process terminates.
 
-However, if I remove `pg-boss` from the app and do the same thing, it does not die, this isn't some Fly.io behavior that somehow notices the DB was deleted and reaps the app. It seems like `pg` maybe cannot handle a DNS loss of the hostname while running, or we need to trap some error better in `pg-boss` or the app itself?
+However, if I remove `pg-boss` from the app and do the same thing, it does not die, so this doesn't appear to be some Fly.io behavior that somehow notices the DB was deleted and reaps the app. It feels like `pg` maybe cannot handle a DNS loss of the hostname while running, or we need to trap some error propogation better in `pg-boss` or the app itself?
